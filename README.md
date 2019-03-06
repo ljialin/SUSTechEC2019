@@ -10,12 +10,14 @@ The main idea is to compare different serach operators and selection schemes on 
 
 ## Citing
 ```bibtex
-@misc{nevergrad,
-    author = {J. Rapin and O. Teytaud},
-    title = {{Nevergrad - A gradient-free optimization platform}},
-    year = {2018},
-    publisher = {GitHub},
-    journal = {GitHub repository},
-    howpublished = {\url{https://GitHub.com/FacebookResearch/Nevergrad}},
+@article{yao1999evolutionary,
+  title={Evolutionary programming made faster},
+  author={Yao, Xin and Liu, Yong and Lin, Guangming},
+  journal={IEEE Transactions on Evolutionary computation},
+  volume={3},
+  number={2},
+  pages={82--102},
+  year={1999},
+  publisher={IEEE}
 }
 ```
