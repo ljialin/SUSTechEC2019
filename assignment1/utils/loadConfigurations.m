@@ -22,8 +22,9 @@ funcConfig=[...
     30, -32, 32;...
     2, -2, 2;...
     4, 0, 10];
-% Nb of generations for different benchmark functions in the reference (population size=100)
-generations=[3000, 2000, 1500, 2000, 100, 100];
-% Budget for different benchmark functions
-evaluations=100.*generations;
+
+% Budget (evaluations) for different benchmark functions
+evaluations=[150000, 300000, 500000, 150000, 10000, 10000];
+
+
 
