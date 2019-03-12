@@ -12,7 +12,7 @@ addpath('./benchmark/');
 addpath('./utils/');
 
 % Number of repetitions
-numRuns=50;
+numRuns=10;
 % Number of benchmark functions
 numFunc=6;
 %loadConfigurations;
