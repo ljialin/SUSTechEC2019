@@ -22,10 +22,11 @@ funcConfig=[...
             2, -2, 2;...
             4, 0, 10];
 % Budget (evaluations) for different benchmark functions
-evaluations=[150000, 300000, 500000, 150000, 10000, 10000];
+evaluations=[15000, 30000, 50000, 15000, 1000, 1000];
+moreevaluations=[150000, 300000, 500000, 150000, 10000, 10000];
 
 funcName=benchmarkNames{funcIdx};
-config=funcConfig(funcIdx,:)
+config=funcConfig(funcIdx,:);
 budget=evaluations(funcIdx);
 
 end
